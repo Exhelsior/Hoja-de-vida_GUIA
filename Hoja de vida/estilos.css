@@ -6,7 +6,7 @@ body{
 
 #container {
     height: 98vh;
-    width: 30%;
+    width: 35%;
     margin: auto;
     border-width: 3px 10px 12px 0;
     border-style: solid;
@@ -31,7 +31,7 @@ body{
     font-weight: lighter;
 }
 #contenido{
-    height: 72vh;
+    min-height: 72vh;
     background-color: white;
     padding: 10px;
     border-radius: 0 0 50px 0;
@@ -72,18 +72,18 @@ body{
     background-color: #354444;
     border-radius: 50%;
     position: absolute;
-    top: 123px;
-    left: 135px
+    top: 146px;
+    left: 171px;
 }
 
 #c-3{
-    width: 17%;
-    height: 10%;
+    width: 24%;
+    height: 16%;
     background-color: #bec4c498;
     border-radius: 50%;
     position: absolute;
-    top: 795px;
-    left: 463px
+    top: 777px;
+    left: 497px;
 }
 
 #c-4{
@@ -93,7 +93,7 @@ body{
     border-radius: 50%;
     position: absolute;
     top: 794px;
-    left: 552px
+    left: 644px;
 }
 
 #columna>img{
@@ -133,37 +133,87 @@ body{
 
 }
 
-.col-titulo{
-    padding: 5px;
-    background-color: #224949;
-    color: white;
-    border-radius: 5px;
-    margin: 9px 5px;
-    font-size: 1.2em;
-    display: flex;
+.columna-contenido{
+    margin-bottom: 15px;
 }
-
-.yu{
-    margin-top: 3rem;
+.col-titulo{
+    font-size: 0.9em;
+    margin: 3px;
+    background: linear-gradient(94deg, rgb(98, 117, 126) 2%, rgb(49, 97, 114) 83%);
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
 }
 
 .col-linea{
     width: 100%;
-    padding: 0%;
+    padding: 5px;
     display: flex;
-    align-content: space-around;
     gap: 10px;
-    color: rgb(212, 198, 198);
-    flex-direction: row;
-    flex-wrap: wrap;
+    color: white;
+}
 
+.col-linea>h6, .col-linea>h5{
+    font-size: 0.7em;
+    display: inline-block;
+    margin: 0 0 2px 0;
+    font-weight: lighter;
+    color: white;
 }
 
 .col-linea>h6{
-    font-size: 0.7em;
-    display: inline-block;
-    margin: 0px ;
-    font-weight: lighter;
     width: 50%;
+}
+
+.barra{
+    width: 70%;
+    display: flex;
+    gap: 2px;
+}
+
+.b-item{
+    display: inline-block;
+    width: 15%;
+    height: 10px;
+}
+
+.b-1{
+    background-color: #4D5555;
+}
+
+.b-2{
+    background-color: #518d7d;
+}
+
+.b-3{
+    background-color: #7fc129;
+}
+
+.b-4{
+    background-color: #bbc827;
+}
+
+.b-5{
+    background-color: #e1290b;
+}
+
+.linea-icons{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+    margin-left: 5px;   
+}
+
+.icon{
+    width: 25px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.yu{
+    margin-top: 0.9rem;
 }
 
